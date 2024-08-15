@@ -9,4 +9,5 @@ print(type(idade)) # <class 'str'>
 
 num = float(input("Insira um número: ")) # Se o usuario escrever uma string a função float() não consegue convertê-lo.
 print(num)
+    
 
