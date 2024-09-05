@@ -13,7 +13,7 @@ for y in [0, 2, 5]: # Iterando sobre uma lista.
     print(y)
 
 # Função range() - Gera uma sequência de números. 
-# Sintaxe: range(inicio, parada, interação)
+# Sintaxe: range(valor_inicial, valor_final, inncremento)
 # - inicio: O número inicial da sequência.
 # - parada: Até onde a sequência deve ir, mas sem incluir esse número.
 # - interação: De quanto em quanto a sequência deve ser incrementada.
