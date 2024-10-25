@@ -38,3 +38,22 @@ print(tupla3.count(1))
 
 # Método index() retorna o índice do elemento passado como argumento
 print(tupla3.index(3))
+
+# Desafio 1: Máximos e Mínimos
+# Dada uma tupla de números inteiros, crie uma função que retorne uma nova tupla contendo o menor e o maior número da tupla original.
+def min_max(tupla):
+    return min(tupla), max(tupla)
+  
+numeros = (3, 7, 2, 9, 4)
+
+print(min_max(numeros))
+
+# Desafio 2: Concatenador de Tuplas
+# Crie uma função que receba duas tuplas de strings e retorne uma única tupla, contendo todos os elementos das duas tuplas concatenados em pares correspondentes.
+def concatenador_tuplas(tupla1, tupla2):
+    return tuple([valor + " " + tupla2[index] for index, valor in enumerate(tupla1)])
+
+tupla1 = ("maçã", "banana", "laranja")
+tupla2 = ("verde", "amarela", "laranja")
+
+print(concatenador_tuplas(tupla1, tupla2))
