@@ -131,6 +131,7 @@ def menu():
     else:
         print("Opção inválida")
         menu()
+        
 def main():
     while True:
         continua = menu()
